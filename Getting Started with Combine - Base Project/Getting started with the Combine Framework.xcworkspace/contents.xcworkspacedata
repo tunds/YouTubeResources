@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Intro to Functional Programming/Intro to Functional Programming.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Subscriptions &amp; Cancellables/Subscriptions &amp; Cancellables.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Combining Subscriptions/Combining Subscriptions.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Assigning Subscriptions/Assigning Subscriptions.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CurrentValueSubject/CurrentValueSubject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PassthroughSubjects/PassthroughSubjects.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Multi Threading/Multi Threading.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Memory Management/Memory Management.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Handling Publishers in SwiftUI/Handling Publishers in SwiftUI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AnyPublishers, Just &amp; Never/AnyPublishers, Just &amp; Never.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Future &amp; Deffered/Future &amp; Deffered.xcodeproj">
+   </FileRef>
+</Workspace>
