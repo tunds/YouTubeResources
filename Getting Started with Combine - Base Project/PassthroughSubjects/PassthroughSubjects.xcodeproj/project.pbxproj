@@ -17,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		64621EF6262AE45D0083CB9A /* PassthroughSubjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PassthroughSubjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		64621F0D262B68A90083CB9A /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		64F976CA26261A7400103463 /* PassthroughSubjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassthroughSubjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F976CD26261A7400103463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +74,6 @@
 				64F976D626261A7400103463 /* Assets.xcassets */,
 				64F976D826261A7400103463 /* LaunchScreen.storyboard */,
 				64F976DB26261A7400103463 /* Info.plist */,
-				64621EF6262AE45D0083CB9A /* PassthroughSubjects.playground */,
 			);
 			path = PassthroughSubjects;
 			sourceTree = "<group>";
