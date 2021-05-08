@@ -15,7 +15,9 @@ class FormTextCollectionViewCell: UICollectionViewCell {
     private lazy var txtField: UITextField = {
         let txtField = UITextField()
         txtField.translatesAutoresizingMaskIntoConstraints = false
-        txtField.borderStyle = .roundedRect
+        txtField.layer.borderColor = UIColor.systemGray5.cgColor
+        txtField.layer.borderWidth = 1
+        txtField.layer.cornerRadius = 8
         return txtField
     }()
     
@@ -57,11 +59,9 @@ private extension FormTextCollectionViewCell {
         
         // Setup
         txtField.delegate = self
-        txtField.placeholder = item.placeholder
+        txtField.placeholder = " \(item.placeholder)"
         txtField.keyboardType = item.keyboardType
-        txtField.layer.borderColor = UIColor.systemGray5.cgColor
-        txtField.layer.borderWidth = 1
-        txtField.layer.cornerRadius = 8
+
         
         // Layout
         
