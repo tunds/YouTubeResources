@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Bookmark</string>
+		<key>content</key>
+		<string>Bookmark your favourite restaurants and easily access them</string>
+		<key>sfSymbol</key>
+		<string>bookmark</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Customize</string>
+		<key>content</key>
+		<string>Simple UI &amp; fully supports dark mode</string>
+		<key>sfSymbol</key>
+		<string>gearshape</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Support the dev</string>
+		<key>content</key>
+		<string>This app was built by a single developer so I appriciate all the love and support 💕</string>
+		<key>sfSymbol</key>
+		<string>suit.heart</string>
+	</dict>
+</array>
+</plist>
