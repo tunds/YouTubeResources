@@ -30,50 +30,17 @@ struct Article: Codable, Identifiable, Equatable {
 
 extension Article {
     
-    static var dummyData: [Article] {
-        [
-            .init(author: "Adam Edelman, Monica Alba, Frank Thorp V, Alex Moe",
-                  url: "https://www.nbcnews.com/politics/donald-trump/trump-impeachment-trial-day-2-kicks-case-against-him-n1257246",
-                  source: "NBC News",
-                  title: "Never-seen-before security video of Capitol riot to open Trump impeachment trial Day 2 - NBC News",
-                  welcomeDescription: "Dems to open Day 2 trial arguments against Trump with 'never-seen-before\" riot footage",
-                  image: "https://media2.s-nbcnews.com/j/newscms/2021_06/3448074/210205-impeachment-main-bar-cs-428p_fcaf4fdb04ac2ff3682a3783343f300b.nbcnews-fp-1200-630.jpg",
-                  date: Date()),
-            .init(author: "Adam Edelman, Monica Alba, Frank Thorp V, Alex Moe",
-                  url: "https://www.nbcnews.com/politics/donald-trump/trump-impeachment-trial-day-2-kicks-case-against-him-n1257246",
-                  source: "NBC News",
-                  title: "Never-seen-before security video of Capitol riot to open Trump impeachment trial Day 2 - NBC News",
-                  welcomeDescription: "Dems to open Day 2 trial arguments against Trump with 'never-seen-before\" riot footage",
-                  image: "https://media2.s-nbcnews.com/j/newscms/2021_06/3448074/210205-impeachment-main-bar-cs-428p_fcaf4fdb04ac2ff3682a3783343f300b.nbcnews-fp-1200-630.jpg",
-                  date: Date()),
-            .init(author: "Adam Edelman, Monica Alba, Frank Thorp V, Alex Moe",
-                  url: "https://www.nbcnews.com/politics/donald-trump/trump-impeachment-trial-day-2-kicks-case-against-him-n1257246",
-                  source: "NBC News",
-                  title: "Never-seen-before security video of Capitol riot to open Trump impeachment trial Day 2 - NBC News",
-                  welcomeDescription: "Dems to open Day 2 trial arguments against Trump with 'never-seen-before\" riot footage",
-                  image: "https://media2.s-nbcnews.com/j/newscms/2021_06/3448074/210205-impeachment-main-bar-cs-428p_fcaf4fdb04ac2ff3682a3783343f300b.nbcnews-fp-1200-630.jpg",
-                  date: Date()),
-            .init(author: "Adam Edelman, Monica Alba, Frank Thorp V, Alex Moe",
-                  url: "https://www.nbcnews.com/politics/donald-trump/trump-impeachment-trial-day-2-kicks-case-against-him-n1257246",
-                  source: "NBC News",
-                  title: "Never-seen-before security video of Capitol riot to open Trump impeachment trial Day 2 - NBC News",
-                  welcomeDescription: "Dems to open Day 2 trial arguments against Trump with 'never-seen-before\" riot footage",
-                  image: "https://media2.s-nbcnews.com/j/newscms/2021_06/3448074/210205-impeachment-main-bar-cs-428p_fcaf4fdb04ac2ff3682a3783343f300b.nbcnews-fp-1200-630.jpg",
-                  date: Date()),
-            .init(author: "Adam Edelman, Monica Alba, Frank Thorp V, Alex Moe",
-                  url: "https://www.nbcnews.com/politics/donald-trump/trump-impeachment-trial-day-2-kicks-case-against-him-n1257246",
-                  source: "NBC News",
-                  title: "Never-seen-before security video of Capitol riot to open Trump impeachment trial Day 2 - NBC News",
-                  welcomeDescription: "Dems to open Day 2 trial arguments against Trump with 'never-seen-before\" riot footage",
-                  image: "https://media2.s-nbcnews.com/j/newscms/2021_06/3448074/210205-impeachment-main-bar-cs-428p_fcaf4fdb04ac2ff3682a3783343f300b.nbcnews-fp-1200-630.jpg",
-                  date: Date()),
-            .init(author: "Adam Edelman, Monica Alba, Frank Thorp V, Alex Moe",
-                  url: "https://www.nbcnews.com/politics/donald-trump/trump-impeachment-trial-day-2-kicks-case-against-him-n1257246",
-                  source: "NBC News",
-                  title: "Never-seen-before security video of Capitol riot to open Trump impeachment trial Day 2 - NBC News",
-                  welcomeDescription: "Dems to open Day 2 trial arguments against Trump with 'never-seen-before\" riot footage",
-                  image: "https://media2.s-nbcnews.com/j/newscms/2021_06/3448074/210205-impeachment-main-bar-cs-428p_fcaf4fdb04ac2ff3682a3783343f300b.nbcnews-fp-1200-630.jpg",
-                  date: Date())
-        ]
+    static var dummyArticles: [Article] {
+        Array(repeating: Article(
+            author: "Andrew E. Kramer",
+            url: "https://www.nytimes.com/live/2022/01/27/world/ukraine-russia-us",
+            source: "New York Times",
+            title: "Latest on Russia-Ukraine Tensions: Live Updates - The New York Times",
+            articleDescription: "There was no immediate sign of a connection between the shooting and Russia’s military buildup at the border. The incident came hours after the U.S. offered a written response to Russian demands over Eastern Europe.",
+            image: "https://static01.nyt.com/images/2022/01/27/world/27ukraine-shooting-01/27ukraine-shooting-01-facebookJumbo.jpg",
+            date: Date()
+        ), count: 10)
     }
+    
 }
+
