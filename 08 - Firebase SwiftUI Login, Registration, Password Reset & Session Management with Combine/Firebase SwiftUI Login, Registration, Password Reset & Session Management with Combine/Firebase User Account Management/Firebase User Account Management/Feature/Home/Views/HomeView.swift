@@ -20,6 +20,7 @@ struct HomeView: View {
                     Text("First Name: \(service.userDetails?.firstName ?? "N/A")")
                     Text("Last Name: \(service.userDetails?.lastName ?? "N/A")")
                     Text("Occupation: \(service.userDetails?.occupation ?? "N/A")")
+                    Text("Gender: \(service.userDetails?.gender ?? "N/A")")
                 }
                     
                     ButtonView(title: "Logout") {

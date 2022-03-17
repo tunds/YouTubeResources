@@ -26,6 +26,7 @@ struct UserSessionDetails {
     let firstName: String
     let lastName: String
     let occupation: String
+    let gender: String
 }
 
 protocol SessionService {
@@ -83,14 +84,16 @@ private extension SessionServiceImpl {
                                   let value = snapshot.value as? NSDictionary,
                                   let firstName = value[RegistrationKeys.firstName.rawValue] as? String,
                                   let lastName = value[RegistrationKeys.lastName.rawValue] as? String,
-                                  let occupation = value[RegistrationKeys.occupation.rawValue] as? String else {
+                                  let occupation = value[RegistrationKeys.occupation.rawValue] as? String,
+                                  let gender = value[RegistrationKeys.gender.rawValue] as? String else {
                                 return
                             }
 
                             DispatchQueue.main.async {
                                 self.userDetails = UserSessionDetails(firstName: firstName,
                                                                       lastName: lastName,
-                                                                      occupation: occupation)
+                                                                      occupation: occupation,
+                                                                      gender: gender)
                             }
                         }
                 }

@@ -46,6 +46,12 @@ struct RegisterView: View {
                                        placeholder: "Occupation",
                                        keyboardType: .namePhonePad,
                                        systemImage: nil)
+                    
+                    Picker("Gender", selection: $viewModel.newUser.gender) {
+                        ForEach(Gender.allCases) { item in
+                            Text(item.rawValue)
+                        }
+                    }
                 }
                 
                 ButtonView(title: "Sign up") {

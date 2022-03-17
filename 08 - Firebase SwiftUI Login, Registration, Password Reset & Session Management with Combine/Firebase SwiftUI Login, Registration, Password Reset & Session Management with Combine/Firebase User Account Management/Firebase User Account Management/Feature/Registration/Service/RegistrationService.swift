@@ -10,12 +10,20 @@ import Foundation
 import Firebase
 import FirebaseDatabase
 
+enum Gender: String, Identifiable, CaseIterable {
+    var id: Self { self }
+    case male
+    case female
+}
+
 struct RegistrationCredentials {
+    
     var email: String
     var password: String
     var firstName: String
     var lastName: String
     var occupation: String
+    var gender: Gender
 }
 
 protocol RegistrationService {
@@ -26,6 +34,7 @@ enum RegistrationKeys: String {
     case firstName
     case lastName
     case occupation
+    case gender
 }
 
 final class RegistrationServiceImpl: RegistrationService {
@@ -47,7 +56,8 @@ final class RegistrationServiceImpl: RegistrationService {
                             
                             let values = [RegistrationKeys.firstName.rawValue: credentials.firstName,
                                           RegistrationKeys.lastName.rawValue: credentials.lastName,
-                                          RegistrationKeys.occupation.rawValue: credentials.occupation] as [String : Any]
+                                          RegistrationKeys.occupation.rawValue: credentials.occupation,
+                                          RegistrationKeys.gender.rawValue: credentials.gender.rawValue] as [String : Any]
                             
                             Database
                                 .database()
