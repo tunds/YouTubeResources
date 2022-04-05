@@ -84,10 +84,28 @@ class ThemeManager {
     func handleTheme(darkMode: Bool, system: Bool) {
         
         guard !system else {
-            UIApplication.shared.windows.first?.overrideUserInterfaceStyle = .unspecified
+            UIApplication.keyWindow?.overrideUserInterfaceStyle = .unspecified
             return
         }
         
-        UIApplication.shared.windows.first?.overrideUserInterfaceStyle = darkMode ? .dark : .light
+        UIApplication.keyWindow?.overrideUserInterfaceStyle = darkMode ? .dark : .light
     }
+}
+
+
+extension UIApplication {
+    
+    static var keyWindow: UIWindow? {
+        // Get connected scenes
+        return UIApplication.shared.connectedScenes
+            // Keep only active scenes, onscreen and visible to the user
+            .filter { $0.activationState == .foregroundActive }
+            // Keep only the first `UIWindowScene`
+            .first(where: { $0 is UIWindowScene })
+            // Get its associated windows
+            .flatMap({ $0 as? UIWindowScene })?.windows
+            // Finally, keep only the key window
+            .first(where: \.isKeyWindow)
+    }
+    
 }
