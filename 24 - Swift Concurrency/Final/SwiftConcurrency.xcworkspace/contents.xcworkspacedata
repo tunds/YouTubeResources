@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Actor Isolation"
+      name = "Actor Isolation">
+      <Group
+         location = "group:Actor Isolation"
+         name = "Actor Isolation">
+         <FileRef
+            location = "group:ViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ShoppingBasket.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:SceneDelegate.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Actor Isolation.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Actor Reentrancy Example"
+      name = "Actor Reentrancy Example">
+      <Group
+         location = "group:Actor Reentrancy Example"
+         name = "Actor Reentrancy Example">
+         <FileRef
+            location = "group:ViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:SceneDelegate.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Actor Reentrancy Example.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Actors"
+      name = "Actors">
+      <FileRef
+         location = "group:Actors.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Actors"
+         name = "Actors">
+         <Group
+            location = "group:ViewModel"
+            name = "ViewModel">
+            <FileRef
+               location = "group:BankAccountViewModel.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ActorsApp.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Preview Content"
+            name = "Preview Content">
+            <Group
+               location = "group:Preview Assets.xcassets"
+               name = "Preview Assets.xcassets">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Model"
+            name = "Model">
+            <FileRef
+               location = "group:Transaction.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Service"
+            name = "Service">
+            <FileRef
+               location = "group:AccountService.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Builder"
+            name = "Builder">
+            <FileRef
+               location = "group:TransactionBuilder.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Views"
+            name = "Views">
+            <FileRef
+               location = "group:TransactionsListView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:BankCardView.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ContentView.swift">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:AsyncAwait"
+      name = "AsyncAwait">
+      <Group
+         location = "group:AsyncAwait"
+         name = "AsyncAwait">
+         <FileRef
+            location = "group:Sample.playground">
+         </FileRef>
+         <FileRef
+            location = "group:ViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:SceneDelegate.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:AsyncAwait.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:AsyncLet"
+      name = "AsyncLet">
+      <Group
+         location = "group:AsyncLet"
+         name = "AsyncLet">
+         <FileRef
+            location = "group:Sample.playground">
+         </FileRef>
+         <FileRef
+            location = "group:ViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:SceneDelegate.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:AsyncLet.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Basic Actors Example"
+      name = "Basic Actors Example">
+      <Group
+         location = "group:Basic Actors Example"
+         name = "Basic Actors Example">
+         <FileRef
+            location = "group:ViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:SceneDelegate.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Basic Actors Example.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Continuations"
+      name = "Continuations">
+      <Group
+         location = "group:AnimeQuotes"
+         name = "AnimeQuotes">
+         <Group
+            location = "group:Tests"
+            name = "Tests">
+            <Group
+               location = "group:AnimeQuotesTests"
+               name = "AnimeQuotesTests">
+               <FileRef
+                  location = "group:AnimeQuotesTests.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Package.swift">
+         </FileRef>
+         <Group
+            location = "group:Sources"
+            name = "Sources">
+            <Group
+               location = "group:AnimeQuotes"
+               name = "AnimeQuotes">
+               <FileRef
+                  location = "group:AnimeQuotes.swift">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:Continuations.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Continuations"
+         name = "Continuations">
+         <FileRef
+            location = "group:QuotesViewModel.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Preview Content"
+            name = "Preview Content">
+            <Group
+               location = "group:Preview Assets.xcassets"
+               name = "Preview Assets.xcassets">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:ContentView.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ContinuationsApp.swift">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:GroupTasks"
+      name = "GroupTasks">
+      <Group
+         location = "group:GroupTasks"
+         name = "GroupTasks">
+         <FileRef
+            location = "group:Sample.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MySample.playground">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Preview Content"
+            name = "Preview Content">
+            <Group
+               location = "group:Preview Assets.xcassets"
+               name = "Preview Assets.xcassets">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:GroupTasksApp.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ContentView.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:GroupTasks.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:MainActor"
+      name = "MainActor">
+      <Group
+         location = "group:MainActor"
+         name = "MainActor">
+         <FileRef
+            location = "group:ViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:SceneDelegate.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:MainActor.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Sendable"
+      name = "Sendable">
+      <FileRef
+         location = "group:Sendable.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Sendable"
+         name = "Sendable">
+         <FileRef
+            location = "group:ViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:SceneDelegate.swift">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:StructuredConcurrency"
+      name = "StructuredConcurrency">
+      <FileRef
+         location = "group:StructuredConcurrency.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:StructuredConcurrency"
+         name = "StructuredConcurrency">
+         <FileRef
+            location = "group:Sample.playground">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Preview Content"
+            name = "Preview Content">
+            <Group
+               location = "group:Preview Assets.xcassets"
+               name = "Preview Assets.xcassets">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:StructuredConcurrencyApp.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ContentView.swift">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:TaskCancellation"
+      name = "TaskCancellation">
+      <Group
+         location = "group:TaskCancellation"
+         name = "TaskCancellation">
+         <FileRef
+            location = "group:Sample.playground">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Preview Content"
+            name = "Preview Content">
+            <Group
+               location = "group:Preview Assets.xcassets"
+               name = "Preview Assets.xcassets">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:TaskCancellationApp.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ContentView.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:TaskCancellation.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Unstructured Concurrency"
+      name = "Unstructured Concurrency">
+      <FileRef
+         location = "group:Unstructured Concurrency.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Unstructured Concurrency"
+         name = "Unstructured Concurrency">
+         <FileRef
+            location = "group:ViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ImagesViewModel.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PhotoTableViewCell.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:SceneDelegate.swift">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>
